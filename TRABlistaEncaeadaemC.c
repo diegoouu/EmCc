@@ -11,7 +11,7 @@ typedef struct//cria uma sruc para armazenar os dados de uma pessoa
 	struct Empreiteira *proximo;
 	//struct listFunc *anterior; //DUPLAMENTE ENCADEADA
 } Empreiteira;
-//funcoes declardas
+//funcoes declardas.
 Empreiteira* adicionar();
 void imprimir(Empreiteira *inicio);
 void remover(Empreiteira *inicio, int id);
